@@ -1,0 +1,31 @@
+@import "../../themes/variables";
+
+.cards {
+  background: $white;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 190px;
+  }
+
+  &__number {
+    background: $information;
+    color: $white;
+    height: 30px;
+    width: 30px;
+  }
+
+  &__title {
+    color: $twilight;
+    font-weight: 600;
+    margin: 20px;
+    width: 4;
+  }
+
+  &__description {
+    color: $twilight;
+    font-size: 14px;
+  }
+}
