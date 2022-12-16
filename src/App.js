@@ -3,7 +3,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home";
-import About from "./pages/About";
+import About from "./pages/About/About";
 import Work from "./pages/Work";
 import Blog from "./pages/Blog";
 
